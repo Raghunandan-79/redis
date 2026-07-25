@@ -1,0 +1,17 @@
+{
+  "name": "08_build_a_pub_sub_with_redis",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/express": "^5.0.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "ioredis": "^5.11.1"
+  }
+}
